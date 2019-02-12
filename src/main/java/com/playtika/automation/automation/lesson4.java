@@ -6,7 +6,7 @@ public class lesson4 {
 
         if (a == 10) {
             System.out.println("Hello 1");
-        }
+        } else {
         System.out.println("Hello 2");
 
 }
