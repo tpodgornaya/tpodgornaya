@@ -9,8 +9,9 @@ public class PasswordGenerator {
     public static final String CHAR_ALPHABET = "QWERTYUIOPASDFGHJKLZXCVBNMqwertyuiopasdfghjklzxcvbnm";
 
     public static void main(String[] args) {
-
-        System.out.println(generatePassword(12));
+        for(int i = 0; i < 10; i++) {
+            System.out.println(generatePassword(12));
+        }
     }
 
     public static char getRandomChar(String alphabet) {
