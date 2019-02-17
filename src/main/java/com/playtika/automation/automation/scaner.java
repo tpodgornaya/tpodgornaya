@@ -6,8 +6,15 @@ public class scaner {
     public static void main(String[] args) {
         Scanner console = new Scanner(System.in);
 
-        String s = console.nextLine();
+        //String myname = console.nextLine();
+        String a = console.nextLine();
+        int b = console.nextInt();
+        float d = console.nextFloat();
 
-        System.out.printf("Вы ввели: %s.", s);
+
+
+        int c = 1;
+
+
     }
 }

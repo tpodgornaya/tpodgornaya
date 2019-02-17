@@ -17,6 +17,7 @@ public class lesson3 {
         float CookiesPrice = console.nextInt();
 
         System.out.println("Стоимость вашей покупки: " + calculatePrice(CandiesPrice, CookiesPrice));
+
     }
 
     public static float calculatePrice(float candiesKgPrice, float cookiesKgPrice) {
