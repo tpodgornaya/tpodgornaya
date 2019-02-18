@@ -1,5 +1,8 @@
 package com.playtika.automation.automation;
 
+/* Пользователь вводит строку.
+Программа разбивает строку на слова, и “переворачивает” каждое слово, формирует из новых слов предложение и выводит его на экран.*/
+
 import java.util.Scanner;
 
 public class reverseWordsInSentence {
