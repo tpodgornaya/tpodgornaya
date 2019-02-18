@@ -2,7 +2,7 @@ package com.playtika.automation.automation;
 
 import java.util.Scanner;
 
-public class HomeWork2_2 {
+public class sumOfAllNumbers {
     public static void main(String[] args) {
         Scanner console = new Scanner(System.in);
         System.out.println("Введите целое положительное число и нажмите Enter: ");
