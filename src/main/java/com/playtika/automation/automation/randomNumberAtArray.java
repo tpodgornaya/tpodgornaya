@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.Scanner;
 import java.util.concurrent.ThreadLocalRandom;
 
-public class HomeWork2_23 {
+public class randomNumberAtArray {
     public static void main(String[] args) {
         Scanner console = new Scanner(System.in);
         System.out.println("длина массива ");

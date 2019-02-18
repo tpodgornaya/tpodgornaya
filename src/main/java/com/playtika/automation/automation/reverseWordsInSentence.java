@@ -2,7 +2,7 @@ package com.playtika.automation.automation;
 
 import java.util.Scanner;
 
-public class HomeWork2_22 {
+public class reverseWordsInSentence {
     public static void main(String[] args) {
         Scanner console = new Scanner(System.in);
         System.out.println("Введите предложение:");
