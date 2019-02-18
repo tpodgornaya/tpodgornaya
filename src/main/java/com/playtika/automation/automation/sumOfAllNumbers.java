@@ -1,5 +1,7 @@
 package com.playtika.automation.automation;
 
+/* Есть целое положительное число (long). Программа должна определить сумму цифр из которых состоит число. */
+
 import java.util.Scanner;
 
 public class sumOfAllNumbers {
