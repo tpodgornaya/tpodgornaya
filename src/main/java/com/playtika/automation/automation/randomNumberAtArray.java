@@ -1,4 +1,6 @@
 package com.playtika.automation.automation;
+/* Пользователь задает длину массива (положительное число от 10 до 100).
+Программа заполняет массив случайными числами. Выводит массив и все числа массива кратные 3-ем.*/
 
 import java.util.Arrays;
 import java.util.Scanner;
