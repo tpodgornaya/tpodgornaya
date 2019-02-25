@@ -7,7 +7,7 @@ import static javafx.scene.input.KeyCode.Z;
 
 public class fio {
     public static void main(String[] args) {
-        Pattern pattern = Pattern.compile(\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,6}));
+        Pattern pattern = Pattern.compile(^[A-Za-z0-9_-@[.]a-z]{3,15}$);
         Scanner console = new Scanner(System.in);
         System.out.println("Введите e-mail: ");
         while (console.hasNextInt()) {
