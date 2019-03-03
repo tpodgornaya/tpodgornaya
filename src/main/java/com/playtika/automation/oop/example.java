@@ -13,6 +13,8 @@ public class example {
         tetiana.name = "Tetiana";
         tetiana.age = 29;
 
+        oleksii.ageDifference(tetiana);
+
         tetiana.sayName();
         oleksii.sayName();
         System.out.print("");

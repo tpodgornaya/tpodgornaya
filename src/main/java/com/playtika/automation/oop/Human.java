@@ -7,7 +7,13 @@ public class Human {
     public int age;
 
     public void sayName() {
+
         System.out.printf("My name is %s, i'm %s\n", name, isOld());
+    }
+
+    public void ageDifference (Human otherHuman) {
+
+        System.out.println(age - otherHuman.age);
     }
 
     private String isOld() {

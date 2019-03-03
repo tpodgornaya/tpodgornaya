@@ -2,7 +2,7 @@ package com.playtika.automation.automation;
 
 import java.util.Scanner;
 import java.util.regex.Pattern;
-
+/*
 import static javafx.scene.input.KeyCode.Z;
 
 public class fio {
@@ -21,4 +21,4 @@ public class fio {
             }
         }
     }
-}
+}*/
