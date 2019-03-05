@@ -19,4 +19,6 @@ public class House {
     public void destroyHouse() {
         floors = 0;
     }
+
+
 }

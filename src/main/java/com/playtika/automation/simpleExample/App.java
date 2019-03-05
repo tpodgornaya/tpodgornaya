@@ -5,9 +5,11 @@ public class App {
 
         House myHome = new House();
         myHome.setFloorCount(11);
-        myHome.addFloor();
+       myHome.addFloor();
         myHome.addSeveralFloors(1);
         myHome.addSeveralFloors(5);
         myHome.addSeveralFloors(10000);
+
+
     }
 }
