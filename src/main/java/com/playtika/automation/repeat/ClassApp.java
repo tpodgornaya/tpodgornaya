@@ -11,6 +11,9 @@ public class ClassApp {
 
         l1.send(myInbox, l1);
 
+        myInbox.printText();
+
+
 
     }
 }
