@@ -9,10 +9,20 @@ public class Application {
 
         Point p2 = new Point();
         p2.x = 2f;
-        p2.y = 2f;
+        p2.y = 3f;
 
+        Point p3 = new Point();
+        p3.x = 2f;
+        p3.y = 1f;
 
-        System.out.println(p1.distance(p2));
+        Triangle myTrian = new Triangle();
+        myTrian.a = p1;
+        myTrian.b = p2;
+        myTrian.c = p3;
 
+        //System.out.println(p1.distance(p2));
+        System.out.println(myTrian.perimeter());
+        System.out.println(myTrian.square());
+        System.out.println(myTrian.type());
     }
 }
