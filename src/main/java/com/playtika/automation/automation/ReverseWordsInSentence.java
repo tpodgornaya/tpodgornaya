@@ -5,7 +5,7 @@ package com.playtika.automation.automation;
 
 import java.util.Scanner;
 
-public class reverseWordsInSentence {
+public class ReverseWordsInSentence {
     public static void main(String[] args) {
         Scanner console = new Scanner(System.in);
         System.out.println("Введите предложение:");

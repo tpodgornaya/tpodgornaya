@@ -6,7 +6,7 @@ import java.util.Arrays;
 import java.util.Scanner;
 import java.util.concurrent.ThreadLocalRandom;
 
-public class randomNumberAtArray {
+public class RandomNumberAtArray {
     public static void main(String[] args) {
         Scanner console = new Scanner(System.in);
         System.out.println("длина массива ");
