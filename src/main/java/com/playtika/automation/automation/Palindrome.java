@@ -6,7 +6,7 @@ package com.playtika.automation.automation;
 
 import java.util.Scanner;
 
-public class palindrom {
+public class Palindrome {
     public static void main(String[] args) {
         Scanner console = new Scanner(System.in);
         System.out.println("Введите слово: ");

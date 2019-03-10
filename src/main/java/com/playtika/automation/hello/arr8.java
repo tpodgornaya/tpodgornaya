@@ -19,6 +19,10 @@ public class arr8 {
             num = 9;
         }
 
+        for (int m = 0; m < num; m++) {
+            System.out.print("***");
+        }
+        System.out.println("*");
 
         for (int i = 0; i < 4; i++) {
 
