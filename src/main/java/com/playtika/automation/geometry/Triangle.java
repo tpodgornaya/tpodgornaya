@@ -1,5 +1,7 @@
 package com.playtika.automation.geometry;
 
+import java.util.concurrent.ThreadLocalRandom;
+
 public class Triangle {
     public Point a;
     public Point b;
@@ -35,4 +37,6 @@ public class Triangle {
 
         return "произвольный";
     }
+
+
 }
