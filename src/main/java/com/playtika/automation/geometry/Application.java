@@ -20,28 +20,28 @@ public class Application {
             if (serchTriang == 1 && list[i].type().equals("равнобедренный")) {
                 System.out.printf("Найден %s треугольник.\n", list[i].type());
                 System.out.printf("Индекс: %s\n", i);
-                System.out.printf("Треугольник [a(%s;%s), b(%s;%s), c(%s;%s)\n", list[i].a.x, list[i].a.y, list[i].b.x, list[i].b.y, list[i].c.x, list[i].c.y);
+                System.out.printf("Треугольник [a(%s;%s), b(%s;%s), c(%s;%s)]\n", list[i].a.x, list[i].a.y, list[i].b.x, list[i].b.y, list[i].c.x, list[i].c.y);
                 System.out.printf("Периметр: %s\n", list[i].perimeter());
                 System.out.printf("Площадь: %s\n", list[i].square());
             }
             if (serchTriang == 2 && list[i].type().equals("равносторонний")) {
                 System.out.printf("Найден %s треугольник.\n", list[i].type());
                 System.out.printf("Индекс: %s\n", i);
-                System.out.printf("Треугольник [a(%s;%s), b(%s;%s), c(%s;%s)\n", list[i].a.x, list[i].a.y, list[i].b.x, list[i].b.y, list[i].c.x, list[i].c.y);
+                System.out.printf("Треугольник [a(%s;%s), b(%s;%s), c(%s;%s)]\n", list[i].a.x, list[i].a.y, list[i].b.x, list[i].b.y, list[i].c.x, list[i].c.y);
                 System.out.printf("Периметр: %s\n", list[i].perimeter());
                 System.out.printf("Площадь: %s\n", list[i].square());
             }
             if (serchTriang == 3 && list[i].type().equals("прямоугольный")) {
                 System.out.printf("Найден %s треугольник.\n", list[i].type());
                 System.out.printf("Индекс: %s\n", i);
-                System.out.printf("Треугольник [a(%s;%s), b(%s;%s), c(%s;%s)\n", list[i].a.x, list[i].a.y, list[i].b.x, list[i].b.y, list[i].c.x, list[i].c.y);
+                System.out.printf("Треугольник [a(%s;%s), b(%s;%s), c(%s;%s)]\n", list[i].a.x, list[i].a.y, list[i].b.x, list[i].b.y, list[i].c.x, list[i].c.y);
                 System.out.printf("Периметр: %s\n", list[i].perimeter());
                 System.out.printf("Площадь: %s\n", list[i].square());
             }
             if (serchTriang == 4 && list[i].type().equals("произвольный")) {
                 System.out.printf("Найден %s треугольник.\n", list[i].type());
                 System.out.printf("Индекс: %s\n", i);
-                System.out.printf("Треугольник [a(%s;%s), b(%s;%s), c(%s;%s)\n", list[i].a.x, list[i].a.y, list[i].b.x, list[i].b.y, list[i].c.x, list[i].c.y);
+                System.out.printf("Треугольник [a(%s;%s), b(%s;%s), c(%s;%s)]\n", list[i].a.x, list[i].a.y, list[i].b.x, list[i].b.y, list[i].c.x, list[i].c.y);
                 System.out.printf("Периметр: %s\n", list[i].perimeter());
                 System.out.printf("Площадь: %s\n", list[i].square());
             }
