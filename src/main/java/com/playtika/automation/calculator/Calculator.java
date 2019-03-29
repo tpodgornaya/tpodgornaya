@@ -39,7 +39,7 @@ public class Calculator {
         System.out.println( calculator.calculate(456.546, 545.5465, "-") );
         System.out.println( calculator.calculate(456.546, 545.5465, "+") );
         System.out.println( calculator.calculate(456.546, 545.5465, "/") );
-        System.out.println( calculator.calculate(456.546, 545.5465, "^") );
+        System.out.println( calculator.calculate(2.0, 2.0, "^") );
         System.out.println( calculator.calculate(456.546, 545.5465, "log") );
         System.out.println( calculator.calculate(456.546, 545.5465, "sqrt") );
     }

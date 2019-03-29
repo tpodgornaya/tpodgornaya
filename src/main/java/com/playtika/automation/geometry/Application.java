@@ -16,55 +16,47 @@ public class Application {
 
         Triangle[] list = new Triangle[100000];
         for (int i = 0; i < list.length; i++) {
-            list[i] = buildNewTriange();
+            list[i] = buildNewTriangle();
             if (serchTriang == 1 && list[i].type().equals("равнобедренный")) {
-                System.out.printf("Найден %s треугольник.\n", list[i].type());
-                System.out.printf("Индекс: %s\n", i);
-                System.out.printf("Треугольник [a(%s;%s), b(%s;%s), c(%s;%s)]\n", list[i].a.x, list[i].a.y, list[i].b.x, list[i].b.y, list[i].c.x, list[i].c.y);
-                System.out.printf("Периметр: %s\n", list[i].perimeter());
-                System.out.printf("Площадь: %s\n", list[i].square());
+                printTriangle(list, i);
             }
             if (serchTriang == 2 && list[i].type().equals("равносторонний")) {
-                System.out.printf("Найден %s треугольник.\n", list[i].type());
-                System.out.printf("Индекс: %s\n", i);
-                System.out.printf("Треугольник [a(%s;%s), b(%s;%s), c(%s;%s)]\n", list[i].a.x, list[i].a.y, list[i].b.x, list[i].b.y, list[i].c.x, list[i].c.y);
-                System.out.printf("Периметр: %s\n", list[i].perimeter());
-                System.out.printf("Площадь: %s\n", list[i].square());
+                printTriangle(list, i);
             }
             if (serchTriang == 3 && list[i].type().equals("прямоугольный")) {
-                System.out.printf("Найден %s треугольник.\n", list[i].type());
-                System.out.printf("Индекс: %s\n", i);
-                System.out.printf("Треугольник [a(%s;%s), b(%s;%s), c(%s;%s)]\n", list[i].a.x, list[i].a.y, list[i].b.x, list[i].b.y, list[i].c.x, list[i].c.y);
-                System.out.printf("Периметр: %s\n", list[i].perimeter());
-                System.out.printf("Площадь: %s\n", list[i].square());
+                printTriangle(list, i);
             }
             if (serchTriang == 4 && list[i].type().equals("произвольный")) {
-                System.out.printf("Найден %s треугольник.\n", list[i].type());
-                System.out.printf("Индекс: %s\n", i);
-                System.out.printf("Треугольник [a(%s;%s), b(%s;%s), c(%s;%s)]\n", list[i].a.x, list[i].a.y, list[i].b.x, list[i].b.y, list[i].c.x, list[i].c.y);
-                System.out.printf("Периметр: %s\n", list[i].perimeter());
-                System.out.printf("Площадь: %s\n", list[i].square());
+                printTriangle(list, i);
             }
         }
     }
 
-    public static Triangle buildNewTriange() {
+    private static void printTriangle(Triangle[] list, int i) {
+        System.out.printf("Найден %s треугольник.\n", list[i].type());
+        System.out.printf("Индекс: %s\n", i);
+        System.out.printf("Треугольник [a(%s;%s), b(%s;%s), c(%s;%s)]\n", list[i].getA().getX(), list[i].getA().getY(), list[i].getB().getX(), list[i].getB().getY(), list[i].getC().getX(), list[i].getC().getY());
+        System.out.printf("Периметр: %s\n", list[i].perimeter());
+        System.out.printf("Площадь: %s\n", list[i].square());
+    }
+
+    public static Triangle buildNewTriangle() {
         Point p1 = new Point();
-        p1.x = ThreadLocalRandom.current().nextInt(Integer.MAX_VALUE);
-        p1.y = ThreadLocalRandom.current().nextInt(Integer.MAX_VALUE);
+        p1.setX(ThreadLocalRandom.current().nextInt(Integer.MAX_VALUE));
+        p1.setY(ThreadLocalRandom.current().nextInt(Integer.MAX_VALUE));
 
         Point p2 = new Point();
-        p2.x = ThreadLocalRandom.current().nextInt(Integer.MAX_VALUE);
-        p2.y = ThreadLocalRandom.current().nextInt(Integer.MAX_VALUE);
+        p2.setX(ThreadLocalRandom.current().nextInt(Integer.MAX_VALUE));
+        p2.setY(ThreadLocalRandom.current().nextInt(Integer.MAX_VALUE));
 
         Point p3 = new Point();
-        p3.x = ThreadLocalRandom.current().nextInt(Integer.MAX_VALUE);
-        p3.y = ThreadLocalRandom.current().nextInt(Integer.MAX_VALUE);
+        p3.setX(ThreadLocalRandom.current().nextInt(Integer.MAX_VALUE));
+        p3.setY(ThreadLocalRandom.current().nextInt(Integer.MAX_VALUE));
 
         Triangle myTrian = new Triangle();
-        myTrian.a = p1;
-        myTrian.b = p2;
-        myTrian.c = p3;
+        myTrian.setA(p1);
+        myTrian.setB(p2);
+        myTrian.setC(p3);
 
         return myTrian;
     }
