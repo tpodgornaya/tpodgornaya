@@ -4,7 +4,7 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 
 public class ChangeDirCommand implements ConsoleCommand {
-    private final String dir = null;
+    private String dir = null;
 
     public ChangeDirCommand(String s) {
         this.dir = dir;
