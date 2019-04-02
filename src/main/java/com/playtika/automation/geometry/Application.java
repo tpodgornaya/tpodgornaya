@@ -17,16 +17,16 @@ public class Application {
         Triangle[] list = new Triangle[100000];
         for (int i = 0; i < list.length; i++) {
             list[i] = buildNewTriangle();
-            if (serchTriang == 1 && list[i].type().equals("равнобедренный")) {
+            if ((serchTriang == 1) && list[i].type().equals("равнобедренный")) {
                 printTriangle(list, i);
             }
-            if (serchTriang == 2 && list[i].type().equals("равносторонний")) {
+            if ((serchTriang == 2) && list[i].type().equals("равносторонний")) {
                 printTriangle(list, i);
             }
-            if (serchTriang == 3 && list[i].type().equals("прямоугольный")) {
+            if ((serchTriang == 3) && list[i].type().equals("прямоугольный")) {
                 printTriangle(list, i);
             }
-            if (serchTriang == 4 && list[i].type().equals("произвольный")) {
+            if ((serchTriang == 4) && list[i].type().equals("произвольный")) {
                 printTriangle(list, i);
             }
         }
@@ -42,16 +42,16 @@ public class Application {
 
     public static Triangle buildNewTriangle() {
         Point p1 = new Point();
-        p1.setX(ThreadLocalRandom.current().nextInt(Integer.MAX_VALUE));
-        p1.setY(ThreadLocalRandom.current().nextInt(Integer.MAX_VALUE));
+        p1.setX((float) Math.random());
+        p1.setY((float) Math.random());
 
         Point p2 = new Point();
-        p2.setX(ThreadLocalRandom.current().nextInt(Integer.MAX_VALUE));
-        p2.setY(ThreadLocalRandom.current().nextInt(Integer.MAX_VALUE));
+        p2.setX((float) Math.random());
+        p2.setY((float) Math.random());
 
         Point p3 = new Point();
-        p3.setX(ThreadLocalRandom.current().nextInt(Integer.MAX_VALUE));
-        p3.setY(ThreadLocalRandom.current().nextInt(Integer.MAX_VALUE));
+        p3.setX((float) Math.random());
+        p3.setY((float) Math.random());
 
         Triangle myTrian = new Triangle();
         myTrian.setA(p1);

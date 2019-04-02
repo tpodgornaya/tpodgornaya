@@ -6,6 +6,7 @@ public class Triangle {
     private Point c;
 
     public float perimeter() {
+
         return getA().distance(getB()) + getB().distance(getC()) + getC().distance(getA());
     }
 

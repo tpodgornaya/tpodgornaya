@@ -7,8 +7,7 @@ public class Point {
     public float distance (Point otherPoint) {
         float deltaX = getX() - otherPoint.getX();
         float deltaY = getY() - otherPoint.getY();
-        float vector = (float) Math.sqrt(deltaX * deltaX + deltaY * deltaY);
-        return vector;
+        return (float) Math.sqrt(deltaX * deltaX + deltaY * deltaY);
     }
 
     public float getX() {
